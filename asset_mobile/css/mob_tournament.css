@@ -2817,6 +2817,8 @@ margin-top: 0.1rem;
   border-radius: 5px;
   border: 1px solid #dcdcdc;
   margin-bottom: 1rem;
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling */
 }
 
 .play-table--heading {
@@ -2824,7 +2826,10 @@ margin-top: 0.1rem;
   padding: 10px 15px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  display: flex; /* Use flexbox */
+  white-space: nowrap; /* Prevent wrapping of content */
 }
+
 .play-table--heading h3 {
   color: #ffffff;
   margin: 0;
@@ -2840,8 +2845,69 @@ margin-top: 0.1rem;
 }
 
 
-.table-groupA{
+
+.play-table .club-name img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
 }
+.play-table .streaks .win-green {
+  background-color: #4ab75b;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 3px;
+  margin: 0 0.3rem;
+}
+.play-table .streaks .loose-red {
+  background-color: #fe5c4d;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 3px;
+  margin: 0 0.3rem;
+}
+.play-table .streaks .draw-yellow {
+  background-color: #ffc634;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 3px;
+  margin: 0 0.3rem;
+}
+.play-table .streaks .not-play {
+  background-color: #aaaaaa;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 3px;
+  margin: 0 0.3rem;
+}
+
+.play-table .streaks{
+  width: 200px;
+}
+
+.play-table tr:last-child {
+  border-bottom: transparent;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #dcdcdc;
+}
+
 
 /* table css ends */
 /* tournament extra css  */
