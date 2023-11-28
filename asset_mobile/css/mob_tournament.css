@@ -2828,6 +2828,7 @@ margin-top: 0.1rem;
   border-top-right-radius: 5px;
   display: flex; /* Use flexbox */
   white-space: nowrap; /* Prevent wrapping of content */
+  width: 147%;
 }
 
 .play-table--heading h3 {
