@@ -35,17 +35,20 @@ function profileTabClick() {
   var profile = document.querySelector(".mob_academy_box_wrapper");
   var training = document.querySelector("#training-tab");
   var photo = document.querySelector("#photo-tab");
+  var champion = document.querySelector("#champion-tab");
 
   fee.style.opacity = "0";
   profile.style.opacity = "1";
   training.style.opacity = "0";
   photo.style.opacity = "0";
+  champion.style.opacity = "0";
 
   setTimeout(function () {
     fee.style.display = "none";
     profile.style.display = "block";
     training.style.display = "none";
     photo.style.display = "none";
+    champion.style.display = "none";
   }, 500);
 }
 
@@ -54,16 +57,19 @@ function feeTabClick() {
   var fee = document.querySelector("#fee-tab");
   var training = document.querySelector("#training-tab");
   var photo = document.querySelector("#photo-tab");
+  var champion = document.querySelector("#champion-tab");
 
   profile.style.opacity = "0";
   training.style.opacity = "0";
   fee.style.opacity = "1";
-  photo.style.opacity = "10";
+  photo.style.opacity = "0";
+  champion.style.opacity = "0";
 
   setTimeout(function () {
     profile.style.display = "none";
     training.style.display = "none";
     photo.style.display = "none";
+    champion.style.display = "none";
     fee.style.display = "block";
   }, 500);
 }
@@ -73,16 +79,19 @@ function trainingTabClick() {
   var profile = document.querySelector(".mob_academy_box_wrapper");
   var fee = document.querySelector("#fee-tab");
   var photo = document.querySelector("#photo-tab");
+  var champion = document.querySelector("#champion-tab");
 
   training.style.opacity = "1";
   profile.style.opacity = "0";
   fee.style.opacity = "0";
   photo.style.opacity = "0";
+  champion.style.opacity = "0";
 
   setTimeout(function () {
     training.style.display = "block";
     profile.style.display = "none";
     fee.style.display = "none";
+    champion.style.display = "none";
     photo.style.display = "none";
   }, 500);
 }
@@ -92,17 +101,42 @@ function photoTabClick() {
   var profile = document.querySelector(".mob_academy_box_wrapper");
   var fee = document.querySelector("#fee-tab");
   var photo = document.querySelector("#photo-tab");
+  var champion = document.querySelector("#champion-tab");
 
   training.style.opacity = "0";
   profile.style.opacity = "0";
   fee.style.opacity = "0";
+  champion.style.opacity = "0";
   photo.style.opacity = "1";
 
   setTimeout(function () {
     training.style.display = "none";
     profile.style.display = "none";
     fee.style.display = "none";
+    champion.style.display = "none";
     photo.style.display = "block";
+  }, 500);
+}
+
+function championTabClick() {
+  var training = document.querySelector("#training-tab");
+  var profile = document.querySelector(".mob_academy_box_wrapper");
+  var fee = document.querySelector("#fee-tab");
+  var photo = document.querySelector("#photo-tab");
+  var champion = document.querySelector("#champion-tab");
+
+  training.style.opacity = "0";
+  profile.style.opacity = "0";
+  fee.style.opacity = "0";
+  photo.style.opacity = "0";
+  champion.style.opacity = "1";
+
+  setTimeout(function () {
+    training.style.display = "none";
+    profile.style.display = "none";
+    fee.style.display = "none";
+    photo.style.display = "none";
+    champion.style.display = "block";
   }, 500);
 }
 
@@ -441,10 +475,62 @@ window.addEventListener("click", windowOnClick);
 // Custom Modal JS End
 
 
-// banner height 
+// time round js 
 
 
 
-   
+function setProgress(element, value, total) {
+  const circumference = 2 * Math.PI * 30; // Assuming radius as 40
 
-// banner height ends
+  // Calculate the percentage of completion
+  const percentage = (value / total);
+
+  // Calculate the dash offset based on the percentage of completion
+  const dashOffset = circumference * (1 - percentage);
+
+  // Set the stroke-dasharray and stroke-dashoffset properties for the progress bar
+  element.style.strokeDasharray = `${circumference}px ${circumference}px`;
+  element.style.strokeDashoffset = `${dashOffset}px`;
+}
+        
+        function updateProgressBars() {
+          const now = new Date();
+          const targetDate = new Date("2024-08-01T00:00:00+05:30");
+          const diff = targetDate - now;
+        
+          const totalDays = 1000 * 60 * 60 * 24;
+          const totalHours = 1000 * 60 * 60;
+          const totalMinutes = 1000 * 60;
+          const totalSeconds = 1000;
+        
+          const days = Math.floor(diff / totalDays);
+          const hours = Math.floor((diff % totalDays) / totalHours);
+          const minutes = Math.floor((diff % totalHours) / totalMinutes);
+          const seconds = Math.floor((diff % totalMinutes) / totalSeconds);
+        
+          setProgress(document.querySelector('.progress-day .progress-bar'), days, days);
+          setProgress(document.querySelector('.progress-hour .progress-bar'), hours, 24);
+          setProgress(document.querySelector('.progress-minute .progress-bar'), minutes, 60);
+          setProgress(document.querySelector('.progress-second .progress-bar'), seconds, 60);
+        
+          document.querySelector('.progress-day .progress-text').textContent = days;
+          document.querySelector('.progress-hour .progress-text').textContent = hours;
+          document.querySelector('.progress-minute .progress-text').textContent = minutes;
+          document.querySelector('.progress-second .progress-text').textContent = seconds;
+        
+          setTimeout(updateProgressBars, 1000);
+        }
+        
+        // Call the function to start the countdown
+        updateProgressBars();
+        
+        // Call the function to start the countdown
+        updateProgressBars();
+        
+
+
+        
+
+
+
+// time round js ends

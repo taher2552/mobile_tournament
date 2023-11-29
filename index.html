@@ -67,9 +67,6 @@
                         <img src="asset_mobile/images/inner-banner.jpg" alt="" />
                     </a>
                     <a href="asset_mobile/images/inner-banner.jpg" data-fancybox="gallery0">
-                        <img src="asset_mobile/images/banner.jpg" alt="" />
-                    </a>
-                    <a href="asset_mobile/images/inner-banner.jpg" data-fancybox="gallery0">
                         <img src="asset_mobile/images/new_banner.jpeg" alt="" />
                     </a>
                 </div>
@@ -175,7 +172,7 @@
 
                         <li class="" data-bs-toggle="tab" onclick="trainingTabClick()">Standings</li>
 
-                        <li class="" data-bs-toggle="tab" onclick="photoTabClick()">Champions</li>
+                        <li class="" data-bs-toggle="tab" onclick="championTabClick()">Champions</li>
 
                         <li class="" data-bs-toggle="tab" onclick="photoTabClick()">Photos</li>
                     </ul>
@@ -273,182 +270,358 @@
                 </div>
             </div>
 
-            
+
             <div class="group-play--details">
-                
+
                 <div class="play-table--heading">
-                  <h3>group A</h3>
+                    <h3>group A</h3>
                 </div>
                 <div class="play-table">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col" class="text-center">#</th>
-                        <th scope="col" class="w-25 text-left">Club Name</th>
-                        <th scope="col" class="text-center">P</th>
-                        <th scope="col" class="text-center">W</th>
-                        <th scope="col" class="text-center">D</th>
-                        <th scope="col" class="text-center">L</th>
-                        <th scope="col" class="text-center">GF</th>
-                        <th scope="col" class="text-center">GA</th>
-                        <th scope="col" class="text-center">GD</th>
-                        <th scope="col" class="text-center">Points</th>
-                        <th scope="col" class="w-25 text-center">Form</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" class="text-center">1</th>
-                        <td>
-                          <div class="club-name">
-                            <img src="asset_mobile/images/fcgoa.svg" alt="">
-                            <span>fCG</span>
-                          </div>
-                        </td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">6</td>
-                        <td class="text-center">33</td>
-                        <td class="text-center">
-                          <div class="streaks">
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-center">2</th>
-                        <td>
-                          <div class="club-name">
-                            <img src="asset_mobile/images/fckb.svg" alt="">
-                            <span>KBFC</span>
-                          </div>
-                        </td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">7</td>
-                        <td class="text-center">20</td>
-                        <td class="text-center">
-                          <div class="streaks">
-                            <span class="loose-red">l</span>
-                            <span class="win-green">w</span>
-                            <span class="loose-red">l</span>
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-center">3</th>
-                        <td>
-                          <div class="club-name">
-                            <img src="asset_mobile/images/mbsg.svg" alt="">
-                            <span>MBSG</span>
-                          </div>
-                        </td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">15</td>
-                        <td class="text-center">
-                          <div class="streaks">
-                            <span class="win-green">w</span>
-                            <span class="win-green">w</span>
-                            <span class="loose-red">l</span>
-                            <span class="draw-yellow">d</span>
-                            <span class="win-green">w</span>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-center">4</th>
-                        <td>
-                          <div class="club-name">
-                            <img src="asset_mobile/images/mcfc.svg" alt="">
-                            <span>MCFC</span>
-                          </div>
-                        </td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">15</td>
-                        <td class="text-center">
-                          <div class="streaks">
-                            <span class="draw-yellow">d</span>
-                            <span class="win-green">w</span>
-                            <span class="loose-red">l</span>
-                            <span class="win-green">w</span>
-                            <span class="not-play">-</span>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-center">#</th>
+                                <th scope="col" class="text-center">Club Name</th>
+                                <th scope="col" class="text-center">P</th>
+                                <th scope="col" class="text-center">W</th>
+                                <th scope="col" class="text-center">D</th>
+                                <th scope="col" class="text-center">L</th>
+                                <th scope="col" class="text-center">GF</th>
+                                <th scope="col" class="text-center">GA</th>
+                                <th scope="col" class="text-center">GD</th>
+                                <th scope="col" class="text-center">Points</th>
+                                <th scope="col" class="w-25 text-center">Form</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-center">1</th>
+                                <td>
+                                    <div class="club-name">
+                                        <img src="asset_mobile/images/fcgoa.svg" alt="">
+                                        <span>fCG</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">33</td>
+                                <td class="text-center">
+                                    <div class="streaks">
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-center">2</th>
+                                <td>
+                                    <div class="club-name">
+                                        <img src="asset_mobile/images/fckb.svg" alt="">
+                                        <span>KBFC</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">20</td>
+                                <td class="text-center">
+                                    <div class="streaks">
+                                        <span class="loose-red">l</span>
+                                        <span class="win-green">w</span>
+                                        <span class="loose-red">l</span>
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-center">3</th>
+                                <td>
+                                    <div class="club-name">
+                                        <img src="asset_mobile/images/mbsg.svg" alt="">
+                                        <span>MBSG</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">15</td>
+                                <td class="text-center">
+                                    <div class="streaks">
+                                        <span class="win-green">w</span>
+                                        <span class="win-green">w</span>
+                                        <span class="loose-red">l</span>
+                                        <span class="draw-yellow">d</span>
+                                        <span class="win-green">w</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-center">4</th>
+                                <td>
+                                    <div class="club-name">
+                                        <img src="asset_mobile/images/mcfc.svg" alt="">
+                                        <span>MCFC</span>
+                                    </div>
+                                </td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">15</td>
+                                <td class="text-center">
+                                    <div class="streaks">
+                                        <span class="draw-yellow">d</span>
+                                        <span class="win-green">w</span>
+                                        <span class="loose-red">l</span>
+                                        <span class="win-green">w</span>
+                                        <span class="not-play">-</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-              </div>
-
-
-            <div class="mob_academy_box">
-
-                <div class="mob_academy_fee_box">
-                    <p class="mob_academy_fee_heading">Age Group</p>
-                </div>
-
-                <div class="mob_academy_age_list">
-                    <div class="mob_age_box">
-                        <p class="mob_age_box_yrs">5-7 yrs</p>
-                    </div>
-                    <div class="mob_age_box">
-                        <p class="mob_age_box_yrs">8-10 yrs</p>
-                    </div>
-                    <div class="mob_age_box">
-                        <p class="mob_age_box_yrs">11-13 yrs</p>
-                    </div>
-                    <div class="mob_age_box">
-                        <p class="mob_age_box_yrs">14-16 yrs</p>
-                    </div>
-
-                </div>
-
             </div>
 
             <div class="mob_academy_box">
 
                 <div class="mob_academy_fee_box mob_academy_fee_status">
-                    <p class="mob_academy_fee_heading">Fee & Batches</p>
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Introduction to Santosh Trophy</p>
+                    </div>
                 </div>
 
-                <div class="">
-                    <div>
-                        <p class="mob_academy_class">Contact to book a free class </p>
-                    </div>
+                <div class="tour_new_content">
+                    <ul class="tour_intro_trophy">
+                        <li>The Santosh Trophy is a state-level national football competition in India.
+                        </li>
+                        <li> It is organised by the All India Football Federation (AIFF).</li>
+                    </ul>
 
-                    <div class="mob_call_msg">
-                        <button class="mob_message_btn trigger-msg"> <img src="asset_mobile/images/message.svg"
-                                alt="">Message</button>
-                        <button class="mob_call_btn"> <img src="asset_mobile/images/call.svg" alt="">Call</button>
-                    </div>
+                    <p class="mob_font tour_format">Format and Participants</p>
+
+                    <ul class="tour_intro_trophy">
+                        <li>
+                            The tournament is contested by state associations and government institutions.
+                        </li>
+
+                        <li>
+                            Held annually with eligible teams divided into zones for qualifying rounds.
+                        </li>
+                    </ul>
+
+                    <p class="mob_font tour_format">Format Changes
+                    </p>
+
+                    <ul class="tour_intro_trophy">
+                        <li>
+                            Until 2018, the tournament was an individual competition, but since 2021, it is the men's
+                            senior tier of the National Football Championship.
+                        </li>
+                    </ul>
+
 
                 </div>
+            </div>
+
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Your Pathway to Santosh Trophy</p>
+                    </div>
+                </div>
+
+                <div class="tour_new_content">
+                    <ul class="tour_intro_trophy">
+                        <li>Provides indirect scouting for I-League 3, serving as a platform for regional talent to
+                            showcase their skills. Important for Under 23 players for scouting however all can compete.
+                            Even ISL players.
+                        </li>
+                    </ul>
+
+                    <p class="mob_font tour_format">Qualifying Factor</p>
+
+                    <ul class="tour_intro_trophy">
+                        <li>
+                            To qualify for the Santosh Trophy, teams must play in the qualifying round and be divided
+                            into zones. 
+                        </li>
+
+                        <li>
+                             The teams are then divided into groups of three or four. The winners from each group, along
+                            with four seeded teams, are drawn together. These 12 teams are then divided into groups of
+                            three.
+                        </li>
+
+                        <li>
+                            The six group winners and three best runners-up qualify for the final round of the
+                            tournament. The final round is hosted in a central venue that rotates between the five zones
+                            (North, South, East, West, North-east). The two qualified teams from the zone that hosts the
+                            finals win the right to host the finals. The two qualified teams from the zone that hosts
+                            the finals win the right to host the finals.
+                        </li>
+                    </ul>
+
+                    <p class="mob_font tour_format">Pathway</p>
+
+                    <ul class="tour_intro_trophy">
+                        <li>
+                            State camp trial (Direct)
+                        </li>
+
+                        <li>
+                            District tournament(Inter school/Inter college tournament) (Indirect)
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Advantages in playing the Santosh Trophy</p>
+                    </div>
+                </div>
+
+                <div class="tour_new_content">
+                    <ul class="tour_intro_trophy">
+                        <li>Indirect Scouting</li>
+                        <li> Railway Sports Quota Vacancies-Group C, Group D Posts</li>
+                        <li>Banking Jobs(Sports Quota)</li>
+                        <li>Police Jobs(Constable, Subinspector, etc)</li>
+                        <li>Defence Jobs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Chief Guest</p>
+                    </div>
+                </div>
+
+                <div class="tour_guest">
+                    <div class="tour_guest_img">
+                        <img src="asset_mobile/images/tour_guest.jpg" alt="">
+                    </div>
+
+                    <span class="mob_font">KP Sagar Agarwal</span>
+
+                </div>
+            </div>
+
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Sponsers</p>
+                    </div>
+                </div>
+
+                <div class="tour_guest">
+                    <div class="tour_sponser_img">
+                        <img src="asset_mobile/images/hero.svg" alt="">
+                    </div>
+
+                    <div class="tour_sponser_img">
+                        <img src="asset_mobile/images/nivia.svg" alt="">
+                    </div>
+
+                    <div class="tour_sponser_img">
+                        <img src="asset_mobile/images/virtua.svg" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Time Left For Tournament</p>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-day">
+
+                        <svg class="svg" width="70" height="70">
+                            <circle class="bar" cx="35" cy="35" r="30" fill="#17479E"></circle>
+                            <circle class="progress-bar" cx="35" cy="35" r="30" fill="none" stroke="#dcdcdc"
+                                stroke-width="8" stroke-dasharray="0"></circle>
+                            <text x="35" y="65" text-anchor="middle" alignment-baseline="middle" class="progress-text"
+                                transform="rotate(90 50 50)" fill="#2552a4"></text>
+                        </svg>
+                        <span class="time-label">Days</span>
+                    </div>
+
+                    <div class="progress-hour">
+
+                        <svg class="svg" width="70" height="70">
+                            <circle class="bar" cx="35" cy="35" r="30" fill="#17479E"></circle>
+                            <circle class="progress-bar" cx="35" cy="35" r="30" fill="none" stroke="#dcdcdc"
+                                stroke-width="8" stroke-dasharray="0"></circle>
+                            <text x="35" y="65" text-anchor="middle" alignment-baseline="middle" class="progress-text"
+                                transform="rotate(90 50 50)" fill="#2552a4"></text>
+                        </svg>
+                        <span class="time-label">Hours</span>
+
+                    </div>
+
+                    <div class="progress-minute">
+
+                        <svg class="svg" width="70" height="70">
+                            <circle class="bar" cx="35" cy="35" r="30" fill="#17479E"></circle>
+                            <circle class="progress-bar" cx="35" cy="35" r="30" fill="none" stroke="#dcdcdc"
+                                stroke-width="8" stroke-dasharray="0"></circle>
+                            <text x="35" y="65" text-anchor="middle" alignment-baseline="middle" class="progress-text"
+                                transform="rotate(90 50 50)" fill="#2552a4"></text>
+                        </svg>
+                        <span class="time-label">Minutes</span>
+
+                    </div>
+
+                    <div class="progress-second">
+
+                        <svg class="svg" width="70" height="70">
+                            <circle class="bar" cx="35" cy="35" r="30" fill="#17479E"></circle>
+                            <circle class="progress-bar" cx="35" cy="35" r="30" fill="none" stroke="#dcdcdc"
+                                stroke-width="8" stroke-dasharray="0"></circle>
+                            <text x="35" y="65" text-anchor="middle" alignment-baseline="middle" class="progress-text"
+                                transform="rotate(90 50 50)" fill="#2552a4"></text>
+                        </svg>
+                        <span class="time-label">Seconds</span>
+
+                    </div>
+                </div>
+
 
             </div>
 
@@ -498,62 +671,183 @@
                 </div>
             </div>
 
-            <div class="mob_academy_training">
-                <div>
-                    <p class="mob_academy_location">Training Ground Location</p>
+            <div class="mob_academy_box">
+
+                <div class="mob_academy_fee_box mob_academy_fee_status">
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Tournament Arena Location</p>
+                    </div>
                 </div>
 
-                <div class="mob_academy_green_location">
-                    <img src="asset_mobile/images/location_mob.svg" alt="">
-                    <p class="mob_academy_way">BS37, Footdball Grond, Amritsar, India, Punjab region</p>
+                <div>
+                    <p class="mob_font tour_center">Herkley sports center</p>
+
+                    <div class="tour_map">
+                        <img src="asset_mobile/images/tour_map.png" alt="">
+                    </div>
                 </div>
+
+
+
 
             </div>
-
-
 
 
             <div class="mob_academy_box">
 
                 <div class="mob_academy_fee_box mob_academy_fee_status">
-                    <div>
-                        <p class="mob_academy_location">Overview</p>
-                    </div>
-
-                    <div class="mob_call_msg">
-                        <button class="mob_call_btn mob_call_brochure"> <img src="asset_mobile/images/mob_download.svg"
-                                alt="">Download Brochure</button>
+                    <div class="mob_academy_verify">
+                        <p class="mob_academy_verified">Football Rank Pyramid</p>
                     </div>
                 </div>
 
-                <div class="mob_overview_para">
-                    <span class="mob_overview_msg">Pro Sport Development (PSD) is an award-winning social enterprise
-                        that uses sport as a tool for the holistic development of children and youth. PSD fosters the
-                        growth of children and youth as confident and competent individuals by ensuring their
-                        sustainable participation in sport</span>
+                <div class="tour_fb_rank">
+                    <p class="mob_font tier_center">Top-tier National Leagues</p>
+
+                    <div class="tour_rank_list">
+                        <ul>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/isl.svg" alt="">
+                                    <span class="mob_font tour_isl">Indian Super League</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/il.svg" alt="">
+                                    <span class="mob_font tour_isl">i-league</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mob_font tier_center">National and Regional Competitions</p>
+
+                    <div class="tour_rank_list">
+                        <ul>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/il2.svg" alt="">
+                                    <span class="mob_font tour_isl">i-league 2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/il3.svg" alt="">
+                                    <span class="mob_font tour_isl">i-league 3</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/isl.svg" alt="">
+                                    <span class="mob_font tour_isl">Indian state leagues</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/st.svg" alt="">
+                                    <span class="mob_font tour_isl">santosh trophy</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/ifa.svg" alt="">
+                                    <span class="mob_font tour_isl">IFA shield</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/nfl.svg" alt="">
+                                    <span class="mob_font tour_isl">National football league</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mob_font tier_center">Women’s Football</p>
+
+                    <div class="tour_rank_list">
+                        <ul>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/iwl.svg" alt="">
+                                    <span class="mob_font tour_isl">indian women’s league</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/afc.svg" alt="">
+                                    <span class="mob_font tour_isl">AFC women asian cup</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/saff.svg" alt="">
+                                    <span class="mob_font tour_isl">SAFF Women’s championship</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/fc.svg" alt="">
+                                    <span class="mob_font tour_isl">federation cup</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/ac.svg" alt="">
+                                    <span class="mob_font tour_isl">AFC asian cup</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mob_font tier_center">cup competitions and local leagues</p>
+
+                    <div class="tour_rank_list">
+                        <ul>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/cfl.svg" alt="">
+                                    <span class="mob_font tour_isl">calcutta football league</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/sc.svg" alt="">
+                                    <span class="mob_font tour_isl">super cup</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/yl.svg" alt="">
+                                    <span class="mob_font tour_isl">youth league</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/msl.svg" alt="">
+                                    <span class="mob_font tour_isl">manipur state league</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mob_font tier_center">other continental tournaments</p>
+
+                    <div class="tour_rank_list">
+                        <ul>
+                            <li>
+                                <div class="fb_rank_pyramid">
+                                    <img src="asset_mobile/images/cgc.svg" alt="">
+                                    <span class="mob_font tour_isl">concacaf gold cup</span>
+                                </div>
+                        </ul>
+                    </div>
+
                 </div>
+
             </div>
 
-
-            <div class="mob_academy_training">
-                <span class="mob_academy_manage">Own this Business? Login to manage!</span>
-            </div>
-
-
-
-            <div class="mob_academy_box">
-
-                <div class="mob_academy_fee_box">
-                    <p class="mob_academy_fee_heading">Language Spoken</p>
-                </div>
-
-                <div class="mob_academy_language">
-                    <p class="mob_language_list">Hindi (Proficient)</p>
-                    <p class="mob_language_list">English (Basic)</p>
-                </div>
-
-
-            </div>
 
 
             <div class="mob_academy_pic">
@@ -710,214 +1004,6 @@
                 </div>
 
             </div>
-
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="mobile_academy_table">
-                        <div class="mobile_academy_table_heading">
-                            <h3>Nearest Schools</h3>
-                        </div>
-                        <div class="mobile_academy_school_table">
-                            <table class="table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="mobile_academy_position_middle">
-                                            #
-                                        </th>
-                                        <th scope="col">school name</th>
-                                        <th scope="col" class="mobile_academy_position_middle mob_table_border">
-                                            distance
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">1</td>
-                                        <td class="mob_academy_table_color">heritage school</td>
-                                        <td
-                                            class="mobile_academy_position_middle mob_academy_table_color mob_table_border">
-                                            3 km</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">2</td>
-                                        <td class="mob_academy_table_color">st joseph co-ed school</td>
-                                        <td
-                                            class="mobile_academy_position_middle mob_academy_table_color mob_table_border">
-                                            5 km</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">3</td>
-                                        <td class="mob_academy_table_color">campion school</td>
-                                        <td
-                                            class="mobile_academy_position_middle mob_academy_table_color mob_table_border">
-                                            7 km</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="mobile_academy_table">
-                        <div class="mobile_academy_table_heading">
-                            <h3>Upcoming Competitions & Tournaments</h3>
-                        </div>
-                        <div class="mobile_academy_school_table">
-                            <table class="table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">date</th>
-                                        <th scope="col">venue</th>
-                                        <th scope="col" class="mob_table_border">Tournament</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="th-lg mob_academy_table_color">29 oct, 23</td>
-                                        <td class="mob_academy_table_color">Jawaharlal Nehru Stadium....</td>
-                                        <td class="mob_table_border mob_academy_table_color">
-                                            durand cup
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mob_academy_table_color">10 oct, 23</td>
-                                        <td class="mob_academy_table_color">Sree Kanteerava Stadium....</td>
-                                        <td class="mob_table_border mob_academy_table_color">
-                                            indian super league
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mob_academy_table_color">1 oct, 23</td>
-                                        <td class="mob_academy_table_color">Jawaharlal Nehru Stadium....</td>
-                                        <td class="mob_table_border mob_academy_table_color">
-                                            santosh trophy
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="mobile_academy_table">
-                        <div class="mobile_academy_table_heading">
-                            <h3>Awards & Achievements</h3>
-                        </div>
-                        <div class="mobile_academy_school_table">
-                            <table class="table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="mobile_academy_position_middle">
-                                            #
-                                        </th>
-                                        <th scope="col">Tournament Name</th>
-                                        <th scope="col" class="mobile_academy_position_middle">
-                                            Rank
-                                        </th>
-                                        <th scope="col" class="mob_table_border">achievements</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">1</td>
-                                        <td class="mob_academy_table_color">durand cup</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">1</td>
-                                        <td class="mob_table_border mob_academy_table_color">1st runner up</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">2</td>
-                                        <td class="mob_academy_table_color">IFA Shield</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">2</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">3</td>
-                                        <td class="mob_academy_table_color">indian super league</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">3</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">4</td>
-                                        <td class="mob_academy_table_color">santosh trophy</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">NA</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="mobile_academy_table">
-                        <div class="mobile_academy_table_heading">
-                            <h3>other academies nearby</h3>
-                        </div>
-                        <div class="mobile_academy_school_table">
-                            <table class="table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">academy Name</th>
-                                        <th scope="col" class="mobile_academy_position_middle">
-                                            Rank
-                                        </th>
-                                        <th scope="col" class="mob_table_border">location</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">1</td>
-                                        <td class="mob_academy_table_color">durand cup</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">1</td>
-                                        <td class="mob_table_border mob_academy_table_color">1st runner up</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">2</td>
-                                        <td class="mob_academy_table_color">IFA Shield</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">2</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">3</td>
-                                        <td class="mob_academy_table_color">indian super league</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">3</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">4</td>
-                                        <td class="mob_academy_table_color">santosh trophy</td>
-                                        <td class="mobile_academy_position_middle mob_academy_table_color">NA</td>
-                                        <td class="mob_table_border mob_academy_table_color">Goal keeper of the match
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mob_academy_box mob_social">
-
-                <div class="mob_academy_fee_box">
-                    <p class="mob_academy_fee_heading">Follow Academy On Social</p>
-                </div>
-
-                <div class="mob_academy_language mob_media">
-                    <img src="asset_mobile/images/instagram.png" alt="">
-                    <img src="asset_mobile/images/facebook_mob.png" alt="">
-                </div>
-            </div>
-
 
 
             <div class="mob_academy_blog_wrapper">
@@ -1098,8 +1184,21 @@
                         <p>Join Us now if you are a player and needs a boost in your career</p>
                     </div>
 
-                    <div class="mobile_try_btn">
+                    <!-- <div class="mobile_try_btn">
                         <button>Try Now!</button>
+                    </div> -->
+
+                    <div class="mobile_academy_search_field tour_subscribe">
+                        <div class="input-group input-group-lg mobile_academy_input">
+                            <input type="text" class="form-control mobile_academy_custom_search"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"
+                                placeholder="Enter email to subscribe" />
+
+                            <button type="submit" class="mobile_academy_search_btn">
+                                <img src="asset_mobile/images/send.svg" alt="" />
+                            </button>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1109,101 +1208,22 @@
         <!-- profile tab contents ends  -->
 
 
-        <!-- fee tab  -->
+        <!-- fixture tab  -->
         <div class="fade" id="fee-tab">
             <section class="academy_mobile_container">
                 <div class="mobile_bannner_section">
                     <div class="mob_academy_box_wrapper">
 
-                        <div class="mob_academy_box">
-
-                            <div class="mob_academy_fee_box">
-                                <p class="mob_academy_fee_heading">New Batch</p>
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Age Group</span>
-
-                                <div class="mob_age_flex">
-
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">5-7 yrs</span>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Weekly Days</span>
-                                <div class="mob_age_box mob_academy_days">
-                                    <span class="mob_age_box_yrs">Mon-Wed-Fri</span>
-                                </div>
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Timings</span>
-
-                                <div class="mob_age_flex">
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">10AM-12PM</span>
-                                    </div>
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">12PM-02PM</span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="mob_academy_box">
-
-                            <div class="mob_academy_fee_box">
-                                <p class="mob_academy_fee_heading">Weekly Batch</p>
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Age Group</span>
-
-                                <div class="mob_age_flex">
-
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">5-7 yrs</span>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Weekly Days</span>
-                                <div class="mob_age_box mob_academy_days">
-                                    <span class="mob_age_box_yrs">Mon-Wed-Fri</span>
-                                </div>
-                            </div>
-
-                            <div class="mob_academy_age_grp">
-                                <span class="mob_academy_age">Timings</span>
-
-                                <div class="mob_age_flex">
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">10AM-12PM</span>
-                                    </div>
-                                    <div class="mob_age_box">
-                                        <span class="mob_age_box_yrs">12PM-02PM</span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                        Fixture
 
 
 
                     </div>
             </section>
         </div>
-        <!-- fee tab ends -->
+        <!-- fixture tab ends -->
 
-        <!-- trainig tab starts  -->
+        <!-- standing tab starts  -->
 
         <div class="fade" id="training-tab">
 
@@ -1211,41 +1231,7 @@
 
                 <div class=" mob_academy_box_wrapper">
 
-                    <div class="mob_academy_box">
-
-                        <div class="mob_academy_fee_box">
-                            <p class="mob_academy_fee_heading">Technical</p>
-                        </div>
-
-                        <div>
-                            <p class="mob_academy_training_box">Technical assessment mainly involves skills and
-                                technique like Passing (short and long range), Controlling, Attacking, Tackling,
-                                Defensive duties</p>
-                        </div>
-                    </div>
-
-                    <div class="mob_academy_box">
-
-                        <div class="mob_academy_fee_box">
-                            <p class="mob_academy_fee_heading">Physical</p>
-                        </div>
-
-                        <div>
-                            <p class="mob_academy_training_box">Speed, Flexibility, Strength, Endurance, Agility.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mob_academy_box">
-
-                        <div class="mob_academy_fee_box">
-                            <p class="mob_academy_fee_heading">Psychological</p>
-                        </div>
-
-                        <div>
-                            <p class="mob_academy_training_box">Team bonding, Team play, Helping others, Moral and
-                                Social values taught individually and during play.</p>
-                        </div>
-                    </div>
+                    Standing
 
                 </div>
 
@@ -1254,13 +1240,12 @@
 
         </div>
 
-        <!-- trainig tab starts ends -->
+        <!-- standing tab starts ends -->
 
 
         <!-- top photo tab starts here  -->
 
         <div class="fade" id="photo-tab">
-
 
             <section class="academy_mobile_container">
                 <div class="mob_academy_box_wrapper">
@@ -1416,153 +1401,169 @@
 
                 </div>
 
-
+            </section>
         </div>
 
-    </section>
-
-    </div>
-    <!-- top photo tab ends here  -->
+        <!-- top photo tab ends here  -->
 
 
-    <!-- social media modal  -->
+        <!-- Champion tab starts here  -->
 
-    <div class="social-modal">
-        <div class="modal-content">
-            <span class="close-button">x</span>
-            <div class="share-modal--content">
-                <h3>share academy profile</h3>
-                <div class="social-icons">
-                    <a href="#">
-                        <div class="icons new_icon">
-                            <img src="asset_mobile/images/mfb.svg" alt="" />
-                            <span>facebook</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icons new_icon">
-                            <img src="asset_mobile/images/minsta.svg" alt="" />
-                            <span>instagram</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icons new_icon">
-                            <img src="asset_mobile/images/mwhtaps.svg" alt="" />
-                            <span>whatsapp</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icons new_icon">
-                            <img src="asset_mobile/images/mlinkd.svg" alt="" />
-                            <span>linkedIn</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="icons new_icon">
-                            <img src="asset_mobile/images/mcopy.svg" alt="" />
-                            <span>copy link</span>
-                        </div>
-                    </a>
+        <div class="fade" id="champion-tab">
+
+            <section class="academy_mobile_container">
+                <div class="mob_academy_box_wrapper">
+
+                    champion tab
+
+
+
+                </div>
+
+            </section>
+        </div>
+
+        <!-- champion tab ends here  -->
+
+
+        <!-- social media modal  -->
+
+        <div class="social-modal">
+            <div class="modal-content">
+                <span class="close-button">x</span>
+                <div class="share-modal--content">
+                    <h3>share academy profile</h3>
+                    <div class="social-icons">
+                        <a href="#">
+                            <div class="icons new_icon">
+                                <img src="asset_mobile/images/mfb.svg" alt="" />
+                                <span>facebook</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="icons new_icon">
+                                <img src="asset_mobile/images/minsta.svg" alt="" />
+                                <span>instagram</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="icons new_icon">
+                                <img src="asset_mobile/images/mwhtaps.svg" alt="" />
+                                <span>whatsapp</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="icons new_icon">
+                                <img src="asset_mobile/images/mlinkd.svg" alt="" />
+                                <span>linkedIn</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="icons new_icon">
+                                <img src="asset_mobile/images/mcopy.svg" alt="" />
+                                <span>copy link</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- social media modal ends -->
+        <!-- social media modal ends -->
 
 
-    <!-- message modal starts  -->
+        <!-- message modal starts  -->
 
-    <div class="message-modal">
-        <div id="modal-msg-content">
-            <span class="close-button-2">x</span>
-            <div class="share-modal--content-2">
-                <h3>Message To Kuljeet Academy</h3>
-            </div>
-
-            <div>
-                <input type="text" placeholder="Enter Your Name" class="mob_academy_msg_input" id="mob_new_name">
-                <input type="number" placeholder="Enter Your Phone" class="mob_academy_msg_input mob_phone">
-
-                <textarea name="" id="" cols="20" rows="5" placeholder="Type your message"
-                    class="mob_academy_msg_input mob_desc"></textarea>
-
-                <div class="mob_academy_send_btn">
-                    <button>Send <img src="asset_mobile/images/send.svg" alt=""></button>
+        <div class="message-modal">
+            <div id="modal-msg-content">
+                <span class="close-button-2">x</span>
+                <div class="share-modal--content-2">
+                    <h3>Message To Kuljeet Academy</h3>
                 </div>
 
+                <div>
+                    <input type="text" placeholder="Enter Your Name" class="mob_academy_msg_input" id="mob_new_name">
+                    <input type="number" placeholder="Enter Your Phone" class="mob_academy_msg_input mob_phone">
+
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Type your message"
+                        class="mob_academy_msg_input mob_desc"></textarea>
+
+                    <div class="mob_academy_send_btn">
+                        <button>Send <img src="asset_mobile/images/send.svg" alt=""></button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- message modal starts ends -->
+        <!-- message modal starts ends -->
 
-    <!-- Review modal starts  -->
+        <!-- Review modal starts  -->
 
-    <div class="review-modal">
-        <div id="modal-review-content">
-            <span class="close-button-3">x</span>
-            <div class="share-modal--content-3">
-                <h3>Rate this Academy</h3>
-            </div>
+        <div class="review-modal">
+            <div id="modal-review-content">
+                <span class="close-button-3">x</span>
+                <div class="share-modal--content-3">
+                    <h3>Rate this Academy</h3>
+                </div>
 
-            <div class="mob_academy_gold_star">
-                <div class="rate-star-modal">
-                    <fieldset class="rating">
-                        <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5"
-                            title="Awesome - 5 stars"></label>
-                        <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4"
-                            title="Pretty good - 4 stars"></label>
-                        <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3"
-                            title="Meh - 3 stars"></label>
-                        <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2"
-                            title="Kinda bad - 2 stars"></label>
-                        <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1"
-                            title="Sucks big time - 1 star"></label>
-                    </fieldset>
+                <div class="mob_academy_gold_star">
+                    <div class="rate-star-modal">
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5"
+                                title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4"
+                                title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3"
+                                title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2"
+                                title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1"
+                                title="Sucks big time - 1 star"></label>
+                        </fieldset>
+                    </div>
+
+
                 </div>
 
 
-            </div>
 
 
+                <div>
+                    <input type="text" placeholder="Enter Your Name" class="mob_academy_msg_input" id="mob_new_name">
 
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Type your Review Here"
+                        class="mob_academy_msg_input mob_desc-2"></textarea>
 
-            <div>
-                <input type="text" placeholder="Enter Your Name" class="mob_academy_msg_input" id="mob_new_name">
+                    <div class="mob_academy_send_btn">
+                        <button>Send <img src="asset_mobile/images/send.svg" alt=""></button>
+                    </div>
 
-                <textarea name="" id="" cols="20" rows="5" placeholder="Type your Review Here"
-                    class="mob_academy_msg_input mob_desc-2"></textarea>
-
-                <div class="mob_academy_send_btn">
-                    <button>Send <img src="asset_mobile/images/send.svg" alt=""></button>
                 </div>
-
             </div>
         </div>
-    </div>
 
-    <!-- Review modal starts ends -->
+        <!-- Review modal starts ends -->
 
-    <!-- hamber click menu  -->
+        <!-- hamber click menu  -->
 
-    <header class="page-header mob_side_menu">
-        <div class="container-fluid container-space bg-light fixed-top">
-            <div class="row">
-                <div class="col-1 d-flex justify-content-center">
-                    <div id="mySidenav" class="sidenav">
+        <header class="page-header mob_side_menu">
+            <div class="container-fluid container-space bg-light fixed-top">
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-center">
+                        <div id="mySidenav" class="sidenav">
 
-                        <div class="side_menu_top">
+                            <div class="side_menu_top">
 
-                            <div class="side_top_flex">
+                                <div class="side_top_flex">
 
-                                <div class="small_academy_logo">
-                                    <img src="asset_mobile/images/lg-clublogo.png" alt="">
-                                </div>
-                                <div class="side_menu_academy_name"">
+                                    <div class="small_academy_logo">
+                                        <img src="asset_mobile/images/lg-clublogo.png" alt="">
+                                    </div>
+                                    <div class="side_menu_academy_name"">
                                 <p>Kuljeet Academy</p>
 
                             </div>
@@ -1572,155 +1573,294 @@
 
 
                             <div onclick=" Nav()">
-                                    <img src="asset_mobile/images/menu_cross.svg" alt="">
+                                        <img src="asset_mobile/images/menu_cross.svg" alt="">
+                                    </div>
+
+
+
+
                                 </div>
 
+                                <div class="menu_content">
+
+                                    <div class="side_menu_city" onclick="selectCity()">
+                                        <div>
+                                            <img src="asset_mobile/images/black_arrow.svg" alt="">
+                                        </div>
+                                        <span>Select Your City</span>
+                                    </div>
+
+                                    <div class="side_menu_list">
+                                        <a href="#">Blogs</a>
+                                        <a href="#">Contacts</a>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- city select page  -->
+
+                                <div class="city_page">
+
+                                    <div class="arrow_back_city">
+
+                                        <div onclick="selectCity()">
+                                            <img src="asset_mobile/images/blog_arrow_left.svg" alt="">
+                                        </div>
+                                        <span class="city_text">Select City</span>
+                                    </div>
+
+                                    <div class="city_search_container">
+                                        <div class="city_search_icon">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                        <input type="text" class="city_search_input"
+                                            placeholder="Search for your city by name or pin code">
+                                    </div>
+
+                                    <div class="location_flex">
+                                        <div>
+                                            <img src="asset_mobile/images/location.svg" alt="">
+                                        </div>
+                                        <span class="detect_location">Detect my location</span>
+                                    </div>
+
+                                    <div>
+                                        <p class="popular_city_heading">Popular Cities</p>
+                                    </div>
+
+                                    <div class="city_list">
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city1.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Mumbai</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city2.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Delhi-NCR</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city3.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Bengaluru</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city4.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Hyderabad</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city5.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Ahmedabad</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city6.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Chandigarh</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city7.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Chennai</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city8.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Pune</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city9.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">Kolkata</span>
+                                        </div>
+
+                                        <div class="mob_city_relative">
+                                            <div class="city_img">
+                                                <img src="asset_mobile/images/city10.png" alt="">
+                                            </div>
+                                            <span class="menu_city_name">kochi</span>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="other_cities">Other Cities</span>
+                                    </div>
+
+                                    <div class="india_city_list">
+                                        <ul>
+                                            <li>Ahmedabad</li>
+                                            <li>Bangalore</li>
+                                            <li>Chennai</li>
+                                            <li>Delhi</li>
+                                            <li>Hyderabad</li>
+                                            <li>Indore</li>
+                                            <li>Ludhiana</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div>
+
+                                </div>
+                                <!-- city select page ends -->
 
 
 
                             </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
 
-                            <div class="menu_content">
+        <!-- hamber click menu ends -->
 
-                                <div class="side_menu_city" onclick="selectCity()">
-                                    <div>
-                                        <img src="asset_mobile/images/black_arrow.svg" alt="">
+        <!-- search icon click  -->
+
+        <header class="page-header mob_side_menu">
+            <div class="container-fluid container-space bg-light fixed-top">
+                <div class="row">
+                    <div class="col-1 d-flex justify-content-center">
+                        <div id="search-sidebox" class="sidenav">
+
+
+
+
+
+                            <div class="side_menu_top side_search_top">
+
+                                <div class="side_top_flex">
+
+                                    <div class="side_search_cross" onclick="searchIconClick()">
+                                        <img src="asset_mobile/images/menu_cross.svg" alt="">
                                     </div>
-                                    <span>Select Your City</span>
                                 </div>
 
-                                <div class="side_menu_list">
-                                    <a href="#">Blogs</a>
-                                    <a href="#">Contacts</a>
+
+                            </div>
+
+                            <div class="city_search_container side_search_box">
+                                <div class="city_search_icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <input type="text" class="city_search_input search_side_input"
+                                    placeholder="Search for your city by name or pin code" oninput="handleInput()">
+                            </div>
+
+                            <!-- popular search result section -->
+
+                            <div class="popular_search_section">
+
+                                <div>
+                                    <p class="side_popular_search">Popular Searches</p>
+                                </div>
+
+                                <div class="popular_result_list">
+                                    <div class="popular_result">
+                                        <span>Football</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Basketball</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Kuljeet Academy</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>ISL</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Kerela Blasters FC</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Kerela Blasters FC</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Roshan Naorem</span>
+                                    </div>
+                                    <div class="popular_result">
+                                        <span>Sunil Chhetri</span>
+                                    </div>
                                 </div>
 
                             </div>
 
+                            <!-- popular search result section ends-->
 
-                            <!-- city select page  -->
+                            <!-- search results section  -->
 
-                            <div class="city_page">
 
-                                <div class="arrow_back_city">
-
-                                    <div onclick="selectCity()">
-                                        <img src="asset_mobile/images/blog_arrow_left.svg" alt="">
-                                    </div>
-                                    <span class="city_text">Select City</span>
-                                </div>
-
-                                <div class="city_search_container">
-                                    <div class="city_search_icon">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <input type="text" class="city_search_input"
-                                        placeholder="Search for your city by name or pin code">
-                                </div>
-
-                                <div class="location_flex">
-                                    <div>
-                                        <img src="asset_mobile/images/location.svg" alt="">
-                                    </div>
-                                    <span class="detect_location">Detect my location</span>
-                                </div>
-
+                            <div class="search_result_section">
                                 <div>
-                                    <p class="popular_city_heading">Popular Cities</p>
+                                    <p class="final_result_heading">Results</p>
                                 </div>
 
-                                <div class="city_list">
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city1.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Mumbai</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city2.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Delhi-NCR</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city3.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Bengaluru</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city4.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Hyderabad</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city5.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Ahmedabad</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city6.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Chandigarh</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city7.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Chennai</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city8.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Pune</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city9.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">Kolkata</span>
-                                    </div>
-
-                                    <div class="mob_city_relative">
-                                        <div class="city_img">
-                                            <img src="asset_mobile/images/city10.png" alt="">
-                                        </div>
-                                        <span class="menu_city_name">kochi</span>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="other_cities">Other Cities</span>
-                                </div>
-
-                                <div class="india_city_list">
+                                <div class="result_list">
                                     <ul>
-                                        <li>Ahmedabad</li>
-                                        <li>Bangalore</li>
-                                        <li>Chennai</li>
-                                        <li>Delhi</li>
-                                        <li>Hyderabad</li>
-                                        <li>Indore</li>
-                                        <li>Ludhiana</li>
+                                        <li>
+                                            <div class="result_new_flex">
+                                                <img src="asset_mobile/images/arrow-up.svg" alt="">
+                                                <div class="result_display">
+                                                    <span class="result_name">Football</span>
+                                                    <span class="result_type">Sports</span>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="result_new_flex">
+                                                <img src="asset_mobile/images/arrow-up.svg" alt="">
+                                                <div class="result_display">
+                                                    <span class="result_name">Franjo Prince</span>
+                                                    <span class="result_type">Player</span>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="result_new_flex">
+                                                <img src="asset_mobile/images/arrow-up.svg" alt="">
+                                                <div class="result_display">
+                                                    <span class="result_name">Farhan Football Academy</span>
+                                                    <span class="result_type">Academy</span>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
 
+                            <!-- search results section ends -->
+
+
+
+
+
+
+
+
+
                             <div>
 
                             </div>
-                            <!-- city select page ends -->
+
 
 
 
@@ -1728,150 +1868,11 @@
                     </div>
                 </div>
             </div>
-    </header>
-
-    <!-- hamber click menu ends -->
-
-    <!-- search icon click  -->
-
-    <header class="page-header mob_side_menu">
-        <div class="container-fluid container-space bg-light fixed-top">
-            <div class="row">
-                <div class="col-1 d-flex justify-content-center">
-                    <div id="search-sidebox" class="sidenav">
+        </header>
 
 
 
-
-
-                        <div class="side_menu_top side_search_top">
-
-                            <div class="side_top_flex">
-
-                                <div class="side_search_cross" onclick="searchIconClick()">
-                                    <img src="asset_mobile/images/menu_cross.svg" alt="">
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class="city_search_container side_search_box">
-                            <div class="city_search_icon">
-                                <i class="fa fa-search"></i>
-                            </div>
-                            <input type="text" class="city_search_input search_side_input"
-                                placeholder="Search for your city by name or pin code" oninput="handleInput()">
-                        </div>
-
-                        <!-- popular search result section -->
-
-                        <div class="popular_search_section">
-
-                            <div>
-                                <p class="side_popular_search">Popular Searches</p>
-                            </div>
-
-                            <div class="popular_result_list">
-                                <div class="popular_result">
-                                    <span>Football</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Basketball</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Kuljeet Academy</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>ISL</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Kerela Blasters FC</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Kerela Blasters FC</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Roshan Naorem</span>
-                                </div>
-                                <div class="popular_result">
-                                    <span>Sunil Chhetri</span>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- popular search result section ends-->
-
-                        <!-- search results section  -->
-
-
-                        <div class="search_result_section">
-                            <div>
-                                <p class="final_result_heading">Results</p>
-                            </div>
-
-                            <div class="result_list">
-                                <ul>
-                                    <li>
-                                        <div class="result_new_flex">
-                                            <img src="asset_mobile/images/arrow-up.svg" alt="">
-                                            <div class="result_display">
-                                                <span class="result_name">Football</span>
-                                                <span class="result_type">Sports</span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="result_new_flex">
-                                            <img src="asset_mobile/images/arrow-up.svg" alt="">
-                                            <div class="result_display">
-                                                <span class="result_name">Franjo Prince</span>
-                                                <span class="result_type">Player</span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="result_new_flex">
-                                            <img src="asset_mobile/images/arrow-up.svg" alt="">
-                                            <div class="result_display">
-                                                <span class="result_name">Farhan Football Academy</span>
-                                                <span class="result_type">Academy</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- search results section ends -->
-
-
-
-
-
-
-
-
-
-                        <div>
-
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-
-    <!-- search icon click ends -->
+        <!-- search icon click ends -->
     </section>
 
 
@@ -1950,8 +1951,8 @@
             </div>
         </div>
 
-        <div class="mobile_home_bottom mob_blog_copy">
-            <p class="mobile_home_copyright">Copyright © 2023 <span>BookMyPlayer</span>. All rights reserved.</p>
+        <div class="mobile_home_bottom mob_blog_copy footer_copy">
+            <span class="mobile_home_copyright">Copyright © 2023 <span>BookMyPlayer</span>. All rights reserved.</span>
 
         </div>
 

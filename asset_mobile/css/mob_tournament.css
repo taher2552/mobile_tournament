@@ -21,13 +21,13 @@ body {
   overflow: auto; /* Enable scrolling by default */
 }
 
-.mob_font{
-  color:#222;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.mob_font {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* header css  */
@@ -166,7 +166,6 @@ line-height: normal;
   height: 220px; /* Fixed height for the container */
   overflow: hidden;
 }
-
 
 .mobile_academy_banner img {
   width: 100vw;
@@ -737,7 +736,7 @@ line-height: normal;
   margin-left: 0.3rem;
 }
 
-.mob_academy_grey_email span{
+.mob_academy_grey_email span {
   font-weight: 600;
   color: #222;
 }
@@ -1581,7 +1580,7 @@ line-height: normal;
 }
 
 .mob_filter_by,
-.mob_filter_cross p{
+.mob_filter_cross p {
   color: #222;
   font-family: DM Sans;
   font-size: 1.25rem;
@@ -2238,128 +2237,7 @@ label {
 
 /* star in review modal ends */
 
-@media only screen and (max-width: 440px) {
-  .mobile_academy_input {
-    width: 300px;
-  }
 
-  .mobile_academy_logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .mobile_academy_logo img {
-    width: 40px;
-    top: 50%;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .mobile_academy_progress {
-    width: 150px;
-  }
-
-  :root {
-    --mobile_academy_star_size: 30px;
-  }
-}
-@media only screen and (max-width: 385px) {
-  .mobile_academy_input {
-    width: 100%;
-  }
-
-  .mob_age_box {
-    margin-right: 0.3rem;
-    padding: 0.2rem 0.5rem;
-  }
-
-  .mob_age_box p {
-    font-size: 0.75rem !important;
-  }
-
-  .mobile_academy_progress {
-    width: 130px;
-  }
-
-  :root {
-    --mobile_academy_star_size: 25px;
-  }
-
-  .mob_message_btn,
-  .mob_call_btn {
-    font-size: 0.875rem;
-  }
-
-  .mob_message_btn {
-    margin-right: 0.5rem;
-  }
-}
-
-@media only screen and (max-width: 365px) {
-  .mob_message_btn,
-  .mob_call_btn {
-    font-size: 0.75rem;
-  }
-
-  .mob_academy_rate_btn {
-    padding: 0.2rem 0.4rem;
-    font-size: 0.75rem;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .mob_message_btn,
-  .mob_call_btn {
-    font-size: 0.75rem;
-    padding: 0.3rem;
-  }
-}
-
-@media only screen and (max-width: 335px) {
-  .mobile_academy_progress {
-    width: 120px;
-  }
-
-  :root {
-    --mobile_academy_star_size: 22px;
-  }
-
-  .mob_message_btn img,
-  .mob_call_btn img {
-    display: none;
-  }
-
-  .mob_acacdemy_review_heading {
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .mob_age_box {
-    padding: 0.2rem 0.3rem;
-  }
-
-  .mobile_academy_progress {
-    width: 100px;
-  }
-
-  :root {
-    --mobile_academy_star_size: 20px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .mob_acacdemy_review_heading {
-    font-size: 0.875rem;
-  }
-}
-@media only screen and (min-width: 464px) {
-  .new_icon {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
 /* side navbar  */
 
@@ -2379,7 +2257,7 @@ label {
   -moz-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-#filter_div{
+#filter_div {
   height: 100%;
   width: 0;
   position: fixed;
@@ -2461,13 +2339,13 @@ label {
   border-bottom: 1px solid #dcdcdc;
 }
 
-.side_menu_city span{
+.side_menu_city span {
   color: #222;
   font-family: DM Sans;
   font-size: 1rem;
   font-weight: 600;
   text-transform: capitalize;
-  margin-top:0.2rem;
+  margin-top: 0.2rem;
 }
 
 .mob_side_menu {
@@ -2708,7 +2586,7 @@ label {
   margin-top: 2rem !important;
 }
 
-.result_list ul{
+.result_list ul {
   list-style: none;
   margin-left: 1rem;
   margin-left: -1rem;
@@ -2716,98 +2594,185 @@ label {
   overflow: auto;
 }
 
-.result_list ul li{
+.result_list ul li {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
- border-bottom: 1px solid #dcdcdc;
- margin-right: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-right: 1rem;
 }
 
-.result_list ul li:last-child{
+.result_list ul li:last-child {
   border-bottom: 1px solid transparent;
 }
 
-.result_name{
+.result_name {
   color: #222;
-font-family: DM Sans;
-font-size: 0.9375rem;
-font-style: normal;
-font-weight: 600;
-text-transform: capitalize;
+  font-family: DM Sans;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
-.result_type{
-  color:#AAA;
-font-family: DM Sans;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.02563rem;
-text-transform: capitalize;
+.result_type {
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
 }
 
-.result_new_flex{
+.result_new_flex {
   display: flex;
   justify-content: start;
   align-items: start;
 }
 
-.result_new_flex img{
+.result_new_flex img {
   margin-top: 0.3rem;
   margin-right: 0.3rem;
 }
 
-.result_display{
+.result_display {
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
 }
 
-
 /* side search css ends */
 /* side navbar ends */
 
-#filter_div{
+#filter_div {
   padding: 1rem;
 }
 
 /* tournament extra css  */
 
-.tour_start_date{
-  color: #AAA;
-font-size: 0.6875rem;
-font-style: italic;
+.tour_start_date {
+  color: #aaa;
+  font-size: 0.6875rem;
+  font-style: italic;
 }
 
-.tour_date_container{
+.tour_date_container {
   margin-top: 1.2rem;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
-.tour_left_date{
+.tour_left_date {
   margin-left: 1rem;
 }
 
-.tour_full_date{
+.tour_full_date {
   display: flex;
   justify-content: start;
   align-items: start;
 }
 
-.tour_full_date img{
+.tour_full_date img {
   margin-right: 0.3rem;
 }
-.tour_date_1{
-margin-bottom: 0.2rem;
-margin-top: 0.1rem;
+.tour_date_1 {
+  margin-bottom: 0.2rem;
+  margin-top: 0.1rem;
 }
 
-.tour_end_date{
+.tour_end_date {
   margin-left: 2rem;
+}
+
+.tour_format {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.tour_intro_trophy li {
+  color: #505050;
+}
+
+.tour_new_content {
+  padding-right: 1rem;
+}
+
+.tour_guest {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tour_guest span {
+  font-weight: 600;
+}
+
+.tour_guest_img img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+}
+
+.tour_sponser_img img {
+  margin-right: 1rem;
+}
+
+.tour_center{
+  margin-left: 1rem;
+  color:#505050;
+}
+
+.tour_map{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tour_map img{
+  height: 14rem;
+  width: 100%;
+}
+
+.tier_center{
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+}
+
+.tour_rank_list{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.tour_rank_list ul{
+  list-style: none;
+  margin-left: -2rem;
+}
+
+.tour_isl{
+  color:#505050;
+  margin-left: 0.3rem;
+  text-transform: capitalize;
+}
+
+.fb_rank_pyramid{
+  margin-bottom: 0.5rem;
+}
+
+.tour_subscribe{
+  margin-bottom: 1rem;
+}
+
+.footer_copy{
+ padding-top:0;
 }
 
 
@@ -2821,10 +2786,9 @@ margin-top: 0.1rem;
   overflow-x: auto;
 }
 
-.play-table{
+.play-table {
   overflow-x: auto;
 }
-
 
 .play-table--heading {
   background-color: #17479e;
@@ -2839,15 +2803,18 @@ margin-top: 0.1rem;
 }
 .play-table .club-name {
   text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
 }
 .play-table td,
 .play-table .club-name span {
   font-size: 14px;
   font-weight: 600;
   color: #222222;
+  margin-left: 0.3rem;
 }
-
-
 
 .play-table .club-name img {
   vertical-align: middle;
@@ -2899,18 +2866,248 @@ margin-top: 0.1rem;
   margin: 0 0.3rem;
 }
 
-.play-table .streaks{
+.play-table .streaks {
   width: 200px;
 }
 
 .play-table tr:last-child {
   border-bottom: transparent;
 }
+.play-table tr:nth-child(2){
+  width: 5rem !important;
+}
 
 .table > :not(:last-child) > :last-child > * {
   border-bottom-color: #dcdcdc;
 }
 
-
 /* table css ends */
+
+/* time round css  */
+
+.progress-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.svg {
+  transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+
+.progress-bar {
+  fill: none;
+}
+
+.progress-day .progress-bar {
+  stroke: #17479e;
+}
+
+.progress-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress-hour .progress-bar {
+  stroke: #17479e;
+}
+
+.progress-minute .progress-bar {
+  stroke: #17479e;
+}
+
+.progress-second .progress-bar {
+  stroke: #17479e;
+}
+
+.time-label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #2552a4;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.progress-bar {
+  fill: none;
+  stroke-width: 5;
+}
+
+.progress-bar-remainder {
+  fill: none;
+  stroke-width: 8;
+  stroke: #dcdcdc;
+  stroke-dasharray: 0; /* Start with no visible remainder */
+}
+
+.progress-text {
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Your existing CSS */
+
+/* time round css ends */
 /* tournament extra css  */
+
+
+@media only screen and (max-width: 440px) {
+  .mobile_academy_input {
+    width: 300px;
+  }
+
+  .mobile_academy_logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mobile_academy_logo img {
+    width: 40px;
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 472px) {
+  .mobile_academy_input {
+    width:300px;
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+  .mobile_academy_progress {
+    width: 150px;
+  }
+
+  .mobile_academy_input {
+    width:270px;
+  }
+
+
+  :root {
+    --mobile_academy_star_size: 30px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .mobile_academy_input {
+    width: 100%;
+  }
+
+  .mob_age_box {
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .mob_age_box p {
+    font-size: 0.75rem !important;
+  }
+
+  .mobile_academy_progress {
+    width: 130px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 25px;
+  }
+
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.875rem;
+  }
+
+  .mob_message_btn {
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.75rem;
+  }
+
+  .mob_academy_rate_btn {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.75rem;
+    padding: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .mobile_academy_progress {
+    width: 120px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 22px;
+  }
+
+  .mob_message_btn img,
+  .mob_call_btn img {
+    display: none;
+  }
+
+  .mob_acacdemy_review_heading {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mob_age_box {
+    padding: 0.2rem 0.3rem;
+  }
+
+  .mobile_academy_progress {
+    width: 100px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 20px;
+  }
+
+  .mobile_academy_input {
+    width:200px;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+  .mob_acacdemy_review_heading {
+    font-size: 0.875rem;
+  }
+
+  .mobile_academy_input {
+    width:150px;
+  }
+}
+@media only screen and (min-width: 464px) {
+  .new_icon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
